@@ -76,10 +76,7 @@ def get_feature_names():
     """Get the feature names used in training"""
     # Based on the notebook analysis, these are the top features
     return [
-        'duration', 'src_bytes', 'dst_bytes', 'logged_in', 'count', 'srv_count',
-        'serror_rate', 'srv_serror_rate', 'rerror_rate', 'srv_rerror_rate',
-        'same_srv_rate', 'diff_srv_rate', 'srv_diff_host_rate',
-        'dst_host_count', 'dst_host_srv_count'
+        'duration', 'src_bytes', 'dst_bytes', 'logged_in', 'count', 'srv_count', 'serror_rate', 'srv_serror_rate', 'rerror_rate', 'srv_rerror_rate', 'same_srv_rate', 'diff_srv_rate', 'srv_diff_host_rate', 'dst_host_count', 'dst_host_srv_count', 'dst_host_same_srv_rate', 'dst_host_diff_srv_rate', 'dst_host_same_src_port_rate', 'dst_host_srv_diff_host_rate', 'dst_host_serror_rate', 'dst_host_srv_serror_rate', 'dst_host_rerror_rate', 'dst_host_srv_rerror_rate', 'level', 'protocol_type_udp', 'flag_REJ', 'flag_RSTR', 'flag_S0', 'flag_SF', 'service_encoded'
     ]
 
 @st.cache_data
