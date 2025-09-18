@@ -5,3 +5,8 @@ scikit-learn
 joblib
 lightgbm
 tensorflow
+imblearn
+torch
+xgboost
+matplotlib
+seaborn
